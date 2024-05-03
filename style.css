@@ -109,3 +109,14 @@ body{
     margin-top: 30x;
 }
 
+.weather-details .humidity .weather-details .wind{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+}
+
+.weather-details .humidity{
+    padding-left: 20px;
+    justify-content: flex-start;
+}
