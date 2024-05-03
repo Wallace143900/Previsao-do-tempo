@@ -164,3 +164,20 @@ body{
     font-weight: 500;
     margin-top: 12px;
 }
+
+.weather-box .weather-details{
+    transform: scale(0);
+    opacity: 0;
+}
+
+.fade-in{
+    animation: 0.5 fade forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes fadeIn{
+    to{
+        scale: 1;
+        opacity: 1;
+    }
+}
