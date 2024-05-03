@@ -120,3 +120,8 @@ body{
     padding-left: 20px;
     justify-content: flex-start;
 }
+
+.weather-details .wind{
+    padding-right: 20px;
+    justify-content: flex-end;
+}
