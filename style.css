@@ -48,3 +48,25 @@ body{
     color: #06283D;
     text-transform: capitalize;
 }
+
+.search-box button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    color: #06283D;
+    background: #dff6ff;
+    border-radius: 50%;
+    font-size: 22px;
+    transition: 0.4s ease;
+}
+
+.search-box button:hover{
+    color: white;
+    background: #06283D;
+}
+
+.search-box i {
+    position: absolute;
+    color: #06283D;
+    font-size: 28px;
+}
