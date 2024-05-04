@@ -1,29 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <title>Previsão do Tempo</title>
+    <title>Day #10 - Weather App | AsmrProg</title>
 </head>
+
 <body>
 
     <div class="container">
         <div class="search-box">
             <i class="fa-solid fa-location-dot"></i>
-            <input type="text" placeholder="Localização">
+            <input type="text" placeholder="Enter your location">
             <button class="fa-solid fa-magnifying-glass"></button>
         </div>
 
         <div class="not-found">
-            <img src="./assets/404.png" alt="Imagem de previsão de tempo não encontrada">
-            <p>Oops! Localização inválida</p>
+            <img src="assets/404.png">
+            <p>Oops! Invalid location :/</p>
         </div>
 
         <div class="weather-box">
-            <img src="" alt="">
-            <p class="temperatura"></p>
+            <img src="">
+            <p class="temperature"></p>
             <p class="description"></p>
         </div>
 
@@ -32,18 +37,22 @@
                 <i class="fa-solid fa-water"></i>
                 <div class="text">
                     <span></span>
-                    <p>Umidade</p>
+                    <p>Humidity</p>
                 </div>
             </div>
-            <div class="mind">
+            <div class="wind">
                 <i class="fa-solid fa-wind"></i>
                 <div class="text">
                     <span></span>
-                    <p>Velocidade do Vento</p>
+                    <p>Wind Speed</p>
                 </div>
+            </div>
         </div>
+
     </div>
+
     <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 </body>
+
 </html>

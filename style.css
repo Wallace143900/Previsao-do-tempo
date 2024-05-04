@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    border: none;
+    border: 0;
+    outline: none;
     box-sizing: border-box;
 }
 
@@ -17,7 +18,7 @@ body{
     position: relative;
     width: 400px;
     height: 105px;
-    background: white;
+    background: #fff;
     padding: 28px 32px;
     overflow: hidden;
     border-radius: 18px;
@@ -35,7 +36,7 @@ body{
 
 .search-box input{
     color: #06283D;
-    width: 88%;
+    width: 80%;
     font-size: 24px;
     font-weight: 500;
     text-transform: uppercase;
@@ -61,17 +62,17 @@ body{
 }
 
 .search-box button:hover{
-    color: white;
+    color: #fff;
     background: #06283D;
 }
 
-.search-box i {
+.search-box i{
     position: absolute;
     color: #06283D;
     font-size: 28px;
 }
 
-.weather-box {
+.weather-box{
     text-align: center;
 }
 
@@ -80,7 +81,7 @@ body{
     margin-top: 30px;
 }
 
-.weather-box .temperatura{
+.weather-box .temperature{
     position: relative;
     color: #06283D;
     font-size: 4rem;
@@ -89,7 +90,7 @@ body{
     margin-left: -16px;
 }
 
-.weather-box .temperatura span{
+.weather-box .temperature span{
     position: absolute;
     margin-left: 4px;
     font-size: 1.5rem;
@@ -106,10 +107,10 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 30x;
+    margin-top: 30px;
 }
 
-.weather-details .humidity .weather-details .wind{
+.weather-details .humidity, .weather-details .wind{
     display: flex;
     align-items: center;
     width: 50%;
@@ -165,18 +166,18 @@ body{
     margin-top: 12px;
 }
 
-.weather-box .weather-details{
-    transform: scale(0);
+.weather-box, .weather-details{
+    scale: 0;
     opacity: 0;
 }
 
-.fade-in{
-    animation: 0.5 fade forwards;
+.fadeIn{
+    animation: 0.5s fadeIn forwards;
     animation-delay: 0.5s;
 }
 
 @keyframes fadeIn{
-    to{
+    to {
         scale: 1;
         opacity: 1;
     }
