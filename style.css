@@ -182,3 +182,36 @@ body{
         opacity: 1;
     }
 }
+
+@media (max-width: 768px) {
+    .container{
+        width: 350px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .container{
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .container{
+        width: 300px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .container{
+        width: 300px;
+    }
+
+    .weather-details .humidity,
+    .weather-details .wind {
+        padding: 0; 
+        margin-left: 10px;
+    }
+}
